@@ -1,0 +1,28 @@
+## 🚀 Lab4: 關係與函數 (Relations, Functions & Mapping)
+
+歡迎來到 Lab4 學習筆記！本單元將帶你用 Python 探索離散數學中核心的「關係」與「函數」概念，並將它們轉化為連小學生都能聽懂的故事。
+
+## 👥 第一部分：二元關係 (Binary Relations) 及其性質
+
+💡 降維生活化比喻：
+
+    關係 (Relation) — 「IG 的追蹤名單」：集合 A 是「我們班的男生」，集合 B 是「我們班的女生」。追蹤（Follow）就是一種「關係」。如果小明追蹤了小美，我們就說小明和小美之間有這個「關係」。
+    反射性 (Reflexive) — 「照鏡子」：每個人都必須追蹤自己。如果所有人都有追蹤自己，這個關係就具有反射性。
+    對稱性 (Symmetric) — 「互粉（互相關注）」：只要小明追蹤小美，小美就一定有追蹤小明。大家都是雙向好友！
+    遞移性 (Transitive) — 「朋友的朋友也是朋友」：如果 A 追蹤 B，且 B 追蹤 C，那麼 A 也就一定會追蹤 C。
+
+<img width="1494" height="618" alt="圖片" src="https://github.com/user-attachments/assets/280233c9-8d7a-41ac-929c-f8b5c5b367ff" />
+
+## 🥤 第二部分：函數 (Functions) 與對應關係 (Mappings)
+
+🥤 第二部分：函數 (Functions) 與對應關係 (Mappings)
+💡 降維生活化比喻：
+
+把函數想像成一台 「神奇自動販賣機」：輸入投幣（定義域 Domain）會掉出飲料（對應域 Codomain）。
+
+    函數的規定：每次投幣都「只能掉出一種飲料」，不能投一次卻同時跑出可樂和雪碧（一個輸入不能對應多個輸出）；而且不能吃錢不掉東西。
+    單射 (Injective / One-to-One) — 「專屬按鈕」：不同的投幣孔（輸入）對應到完全不同的飲料出口（輸出），絕對不會有兩顆按鈕掉出同一罐飲料。
+    滿射 (Surjective / Onto) — 「沒有空的飲料架」：販賣機裡所有準備好的飲料種類（對應域）最後都有按鈕能買到，沒有任何一種飲料是擺好看、買不到的。
+    雙射 (Bijective / One-to-One Correspondence) — 「完美的 1對1 配對」：既是單射也是滿射。每個按鈕都有專屬飲料，且每種飲料也都有專屬按鈕，不多不少，完美配對！
+
+<img width="1484" height="736" alt="圖片" src="https://github.com/user-attachments/assets/de591133-2cd5-4063-b24f-79446a34cbe3" />
